@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -124,7 +124,7 @@ namespace Lab2cresh
         /// Этот метод читает заданную сторку из файла
         /// </summary>
         /// <param name="splitted">Массив с разделенными данным</param>
-        /// <returns>текст для разделения на массив и поиска повторяющихся элементов</returns>
+        /// <returns>Каталог Изданий</returns>
         /// <remarks>Так как чтение библиотеки происходит из input.txt, нужно разделить строку на массив данных и потом добавлять их в каталог</remarks>
         private static Catalog Text_inputed()
         {
@@ -148,8 +148,11 @@ namespace Lab2cresh
             }
            return c;
         }
-        
-       
+        /// <summary>
+        /// Точка входа для приложения.
+        /// </summary>
+        /// <param name="args"> Список аргументов командной строки</param>
+        /// <param name="с">Переменная для хранения каталога</param>    
         static void Main(string[] args)
         {
             
